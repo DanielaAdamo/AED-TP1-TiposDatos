@@ -1,0 +1,71 @@
+/*TP1-TiposDatos
+*DA
+*20150416
+*/
+
+#include "stdafx.h"
+#include <iostream>
+int _tmain()
+{
+int pause;
+
+
+std::cout << "			COMPARACION BOOLEAN \n\n";
+bool resultado;
+bool valorA;
+bool valorB;
+
+std::cout << "Ingrese valor booleano A (1 true/0 false) ";
+std::cin >> valorA;
+std::cout << "Ingrese valor booleano B (1 true/0 false) ";
+std::cin >> valorB;
+resultado = valorA == valorB;
+std::cout << "Resultado Obtenido (A == B) -> " ;
+std::cout << resultado;
+
+/*
+                        COMPARACION BOOLEAN
+
+Ingrese valor booleano A (1 true/0 false) 1
+Ingrese valor booleano B (1 true/0 false) 1
+Resultado Obtenido (A == B) -> 1
+
+                        COMPARACION BOOLEAN
+
+Ingrese valor booleano A (1 true/0 false) 1
+Ingrese valor booleano B (1 true/0 false) 0
+Resultado Obtenido (A == B) -> 0
+*/
+	
+
+std::cout << "			COMPARACION ENTEROS \n\n";
+bool resultado;
+int valorA;
+int valorB;
+std::cout << "Ingrese valor A (entero) ";
+std::cin >> valorA;
+std::cout << "Ingrese valor B (entero) ";
+std::cin >> valorB;
+resultado = valorA > valorB;
+std::cout << "A mayor que B ";
+std::cout << resultado;
+AED-TP1-TipoDato.cpp
+/*
+                        COMPARACION ENTEROS
+
+Ingrese valor A (entero) 10
+Ingrese valor B (entero) 20
+A mayor que B 0
+
+
+                        COMPARACION ENTEROS
+
+Ingrese valor A (entero) 20
+Ingrese valor B (entero) 10
+A mayor que B 1
+*/
+
+
+std::cin >> pause;
+
+}
